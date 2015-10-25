@@ -1,0 +1,307 @@
+
+
+header {
+  width: 100%;
+}
+.container {
+  margin: 0 auto;
+  width: 960px;  
+}
+#img-logo{
+  float: left;
+  margin-top: 20px;
+  margin-bottom: 33px;
+}
+#pesquisa { 
+  padding-left: 30px;      
+  padding-top: 6px;   
+  width: 270px;
+  height: 40px;  
+  background-image: url("../img/lupa.png");
+  background-repeat: no-repeat;
+  background-position-y: 6px;
+  border-color: #000000;
+  border-radius: 6px;
+}
+
+#input-pesquisa{
+  float: left;
+  margin-top: 32px;
+  margin-left: 60px;
+}
+
+#venda{
+ float: right;
+ margin-top: 15px;
+ width: 260px;
+}
+
+#venda span {
+  display: inline-block;
+  color: #FF0000;
+}
+#title {
+ margin-top: 15px;
+ font-family: 'Roboto';
+ font-style: italic;
+ font-size: 20px;
+}
+#venda-bag {
+  float: right;
+  margin-top: 12px;
+  margin-right: 30px;
+
+}
+#txt-venda{
+  float: left;
+  width: 125px;
+}
+#bag {
+  display: inline-block;
+  color: #9FB6CD;
+  font-family: 'Oswald', serif;
+}
+#number{
+  font-family: 'Roboto Slab';
+  font-size: 18px;
+}
+#menu {
+  width: 100%;
+  height: 67px;
+  background-color: #523468;  
+}
+
+#menu-content{
+  margin-top: 23px;
+  margin-left: 27px;
+}
+
+#menu-content ul{
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+  float: left;
+  padding:0px;
+  margin:0px;
+  list-style: none;
+}
+
+#menu-content ul li{
+  display: inline;
+  color: #fff;
+  cursor: pointer;
+  padding: 13px;
+  transition: 0.2s;
+}
+#menu-content ul li:hover{
+ box-shadow: inset 33px 26px 2px 5px #422a53;
+ background-color: #422a53;
+ border-radius: 9px;
+ padding: 13px; 
+ transition: 0.2s;
+}
+
+#menu-content ul span {
+  color: #fff;
+  margin-left: 5px; 
+  font-size: 10px;
+}
+
+#sign{
+  display: inline-block;
+  font-family: 'Roboto Slab', serif;
+  font-style: italic;
+  margin-left: 80px;
+}
+#sign span{
+  color: #b395be;
+  padding-right: 13px;
+  padding-left: 13px;
+}
+#sign a, #sign a:visited {
+ text-decoration: none;
+ color: #FFFFFF;
+}
+#sign a:hover {
+  color: #DB7093;
+  text-decoration: none;
+}
+
+h3 {
+  font-family: serif;
+  font-weight: bold;
+}
+
+.produto {
+  font-family: serif;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #000000;
+  display: inline-block;
+  margin-left: 100px;
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+.produto img {
+  width: 200px;
+  height: 200px;
+}
+#lightbox-content {  
+  width: 752px;
+  height: 400px;
+}
+
+#lightbox-picture {
+  float: left;
+}
+#lightbox-picture img {
+  width: 400px;
+  height: 400px;
+}
+#lightbox-description{  
+  float: right;
+  margin-top: 20px;
+  margin-right: 50px;  
+  width: 300px;
+  height: 317px;
+  font-family: serif;
+}
+#lightbox-description span {
+  font-weight: bold;
+}
+.preco {
+  font-family: sans-serif;
+  font-weight: normal;
+  color: #e44c1e;
+  display: inline;
+}
+
+div.jumbotron {
+  margin-bottom: 0;
+}
+
+#painel {
+  float: right;
+  width: 430px;
+  height: 170px;
+  margin-top: 25px;
+}
+
+#painel p {
+  font-size: 1.2em;
+  font-family: sans;
+  font-style: italic;
+  font-weight: bold;
+}
+#painel span {
+  float: left;
+  padding-bottom: 25px;
+  color: #000;
+}
+
+#email{
+  float: left;
+  border-color: #000000;
+  border-radius: 6px;
+  width: 250px;
+  height: 40px;
+}
+.botao{
+  float: right;
+  margin-right: 31px;
+  background-color: #d73a1e;
+  border: 1px solid #d73a1e;
+  border-radius: 5px;
+  font-family: sans-serif;
+  color: #fff;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  width: 110px;
+  height: 40px;
+  padding: 5px;
+  outline: none;
+}
+.botao-modal {
+  float: left;
+  height: 52px;
+}
+.botao-modal button {
+  margin-top: -38px;
+
+}
+.botao:active {
+ box-shadow: inset 1px 3px 4px 1px #4A1208;
+ text-shadow: 2px 2px 2px #000;
+ background-color: #821F0D;
+ outline: none;
+}
+
+#empresa {
+  display: inline-block;
+  font-size: 18px;
+  float: left;
+  width: 370px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+#empresa a {
+  text-decoration: none;
+  color: #d73a1e;  
+  padding-right: 20px;
+  transition: 0.2s; 
+}
+#empresa a:hover{
+  text-shadow: 1px 1px 3px #f00;
+  transition: 0.2s;
+}
+#redes-sociais{
+  float: left;
+}
+
+#redes-sociais img {
+  margin: 15px;
+}
+
+#direitos-autorais {
+  color: #7a666a;
+  font-family: Tahoma;  
+  margin-bottom: 15px;
+  float: left;
+  margin-left: 22px;
+}
+#direitos-autorais span {
+  color: #7a666a;
+  font-style: normal;
+  font-family: Tahoma;
+}
+.roboto{
+  font-family: 'Roboto', sans-serif;
+}
+.droid-sans{
+  font-family: 'Droid Sans', sans-serif;
+}
+
+.italic{ 
+  font-style: italic;
+}
+.bold{
+  font-style: bold;
+}
+/*
+Customização do Alertify js
+*/
+.alertify .ajs-footer .ajs-buttons .ajs-button.ajs-ok {
+  color: #fff;
+  background-color: #d73a1e;
+  border-radius: 5px;
+}
+.alertify .ajs-footer .ajs-buttons .ajs-button.ajs-ok:active {
+  box-shadow: inset 1px 3px 4px 1px #4A1208;
+  text-shadow: 2px 2px 2px #000;
+  background-color: #821F0D;
+  outline: none;
+}
+.alertify-notifier .ajs-message.ajs-success {
+  background-color: #523468;
+}
